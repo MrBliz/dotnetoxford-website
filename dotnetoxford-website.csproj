@@ -10,10 +10,30 @@
 
   <ItemGroup>
       <PackageReference Include="Statiq.Web" Version="1.0.0-beta.54" />
+      <PackageReference Include="Devlead.Statiq" Version="0.20.0" />
     </ItemGroup>
 
     <ItemGroup>
       <Folder Include="Input" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="input\pages\about.md">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </None>
+      <None Update="input\_layout.cshtml">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </None>
+      <None Update="input\index.cshtml">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </None>
+      <None Update="input\_navbar.cshtml">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="input\_ViewImports.cshtml.cs" />
     </ItemGroup>
 
 </Project>
