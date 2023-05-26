@@ -18,27 +18,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Update="input\pages\about.md">
-        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      </None>
-      <None Update="input\_layout.cshtml">
-        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      </None>
-      <None Update="input\index.cshtml">
-        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      </None>
-      <None Update="input\_navbar.cshtml">
-        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      </None>
-      <None Update="input\_header.cshtml">
-        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      </None>
-      <None Update="input\_post.cshtml">
-        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-
-    <ItemGroup>
       <Compile Include="input\_ViewImports.cshtml.cs" />
     </ItemGroup>
 

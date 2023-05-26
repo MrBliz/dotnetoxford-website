@@ -17,9 +17,10 @@
   bool isPage = Document.GetBool("IsPage");
   var imageAttribution = Document.GetString("ImageAttribution", string.Empty);
   var hasImageAttribution = !string.IsNullOrEmpty(imageAttribution);
+  string isHomePage =  Context.GetLink("/") == Document.GetLink() ? "isHomePage" : "";
 }
 
-<header class="intro-header @(Context.GetLink("/") == Document.GetLink() ? "isHomePage" : "") @mastheadClass" style="@mastheadStyle">
+<header class="intro-header @isHomePage @mastheadClass" style="@mastheadStyle">
   <div class="container position-relative">
     <div class="row">
       <div class="col-md-12">
