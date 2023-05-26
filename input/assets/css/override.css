@@ -18,11 +18,3 @@
     height: 400px !important;
   }
 }
-
-.masthead{
-  padding-top: 0 !important;
-  padding-bottom: 20rem !important;
-}
-.masthead::before{
-  opacity: 0 !important;
-}
