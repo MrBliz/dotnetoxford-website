@@ -15,4 +15,4 @@ IndexPaging: true
 DateTimeInputCulture: "en-GB"
 DateTimeDisplayCulture: "en-GB"
 # Add any pipeline customizations here
-Layout: /_Layout.cshtml
+Layout: /_layout.cshtml
