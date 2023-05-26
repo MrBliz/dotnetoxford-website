@@ -30,6 +30,12 @@
       <None Update="input\_navbar.cshtml">
         <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       </None>
+      <None Update="input\_header.cshtml">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </None>
+      <None Update="input\_post.cshtml">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
     <ItemGroup>
